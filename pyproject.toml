@@ -1,0 +1,10 @@
+[project]
+name = "zsc_eval_yummy"
+version = "0.0.1"
+description = "Experiments with Overcooked-V2 and quick ZSC helper"
+requires-python = ">=3.10"
+dependencies = []
+
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
