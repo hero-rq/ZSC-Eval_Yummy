@@ -6,6 +6,9 @@ Usage
 -----
 from third_party.zsc_quick import zsc_evaluate
 """
+import sys, pathlib
+sys.path.append(str(pathlib.Path(__file__).parent.parent / "extern" / "JaxMARL"))
+
 
 import jax
 import jaxmarl
